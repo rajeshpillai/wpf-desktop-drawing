@@ -1,0 +1,6 @@
+bin
+obj
+Properties
+.vs
+.vs/*
+packages/
