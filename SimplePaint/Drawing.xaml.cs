@@ -37,5 +37,16 @@ namespace SimplePaint
             //Canvas.SetTop(yellowRect, bounds.Y);
             //canvas.Children.Add(yellowRect);
         }
+
+        private void btnErase_Click(object sender, RoutedEventArgs e)
+        {
+            inkCanvas.Strokes.Clear();
+
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
