@@ -3,8 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-        mc:Ignorable="d"  WindowStyle="None"
-        Title="Drawing" Height="450" Width="800" AllowsTransparency="True" Background="#01FFFFFF" Topmost="True">
+        mc:Ignorable="d"
+        Title="Drawing" Height="450" Width="800" Background="#01FFFFFF" Topmost="True" 
+        AllowsTransparency="True"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Grid>
         <Canvas x:Name="canvas" />
         <InkPresenter x:Name="inkPresenter"/>
